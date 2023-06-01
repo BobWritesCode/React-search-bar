@@ -82,6 +82,9 @@ const SearchBar = () => {
       return () => {
         clearTimeout(timer);
       };
+    } else {
+      // Remove spinner in search is empty
+      setShowSpinner(false);
     }
   }, [content]);
 

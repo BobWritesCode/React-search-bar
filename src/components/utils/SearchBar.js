@@ -66,7 +66,6 @@ const SearchBar = () => {
       const fetchData = async () => {
         try {
           // Mock API request.
-          console.log(content);
           const data = MockSearch({ query: content });
           setResults(data);
         } catch (err) {

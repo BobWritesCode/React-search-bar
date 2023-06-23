@@ -1,6 +1,6 @@
 .Main {
   text-align: center;
-  background-color: #282c34;
+  background-color: #fcfcfc;
   min-height: 100vh;
   display: flex;
   color: white;
@@ -9,5 +9,5 @@
 }
 
 .GoldText {
-  color: #ffca39;
+  color: #a67a00;
 }

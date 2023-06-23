@@ -31,7 +31,7 @@ Some of the styling uses Bootstrap. So you can either remove the Bootstrap class
 You can add the following CDN to your `index.html` within the `<head>` tags.
 
 ```html
-<!-- Boostrap stylesheet -->
+<!-- Bootstrap stylesheet -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
   integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 ```
@@ -59,7 +59,7 @@ I use one icon from Bootstrap icons. If you do not plan to use this icon, then y
 Add the following to your `index.html` within the `<head>` tags
 
 ``` html
-<!-- Boostrap Icons -->
+<!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
  ```
 

@@ -1,0 +1,41 @@
+.Input {
+  background-color: whitesmoke;
+  border: 1px solid #6c757d !important;
+  font-weight: 600 !important;
+  border-left: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.Input:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.InputGroup {
+  background-color: whitesmoke;
+  border: 1px solid #6c757d !important;
+  font-weight: 600 !important;
+  border-right: 0 ;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.ResultContainer > div  {
+  border-right: 1px solid #6c757d !important;
+  border-left: 1px solid #6c757d !important;
+}
+
+.ResultContainer > div:last-child  {
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  border-bottom: 1px solid #6c757d !important;
+}
+
+.ResultContainer > div:last-child button  {
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}

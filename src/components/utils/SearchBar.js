@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import MySpinner from './Spinner';
 import { MockSearch } from '../../functions/MockSearch';
+import searchbarStyles from '../../styles/SearchBar.module.css';
 
 const SearchBar = () => {
   // Use to control text-input
@@ -118,10 +119,10 @@ const SearchBar = () => {
     <>
       <div className="position-relative">
         <div
-          className="border border-secondary  border-top-0 position-absolute"
+          className="border border-secondary border-top-0 position-absolute"
           style={{ width: '100%' }}
         >
-          <div className="w-100 rounded-0 bg-light text-dark py-2">
+          <div className="w-100 bg-light text-dark py-2">
             <MySpinner variant="dark" />
           </div>
         </div>
@@ -136,7 +137,7 @@ const SearchBar = () => {
     <>
       <div className="position-relative">
         <div
-          className="border border-secondary  border-top-0 position-absolute"
+          className={`${searchbarStyles.ResultContainer} position-absolute`}
           style={{ width: '100%' }}
         >
           {!showSpinner && ShowResults}
@@ -151,13 +152,13 @@ const SearchBar = () => {
   const ShowSearchBar = (
     <>
       <InputGroup className="ms-0">
-        <InputGroup.Text className="bg-light border-right-0 rounded-0 border-secondary">
-          <i className="bi bi-search text-dark"></i>
+        <InputGroup.Text className={`${searchbarStyles.InputGroup}`}>
+          <i className="bi bi-search"></i>
         </InputGroup.Text>
         <Form.Control
           placeholder="User search"
           aria-label="User searchbar"
-          className="rounded-0 border-secondary"
+          className={`${searchbarStyles.Input}`}
           onChange={handleChange}
           value={content}
         />

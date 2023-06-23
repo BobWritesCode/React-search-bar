@@ -3,7 +3,7 @@ import Spinner from 'react-bootstrap/Spinner';
 import PropTypes from 'prop-types';
 
 const MySpinner = (props) => {
-  const {variant='light'} = props;
+  const { variant = 'light' } = props;
 
   return (
     <div className="d-flex justify-content-center">
